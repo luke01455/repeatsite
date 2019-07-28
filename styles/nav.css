@@ -1,0 +1,21 @@
+.landing-container > .navbar-container {
+    padding-top: 33px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar-container > .navlink-container {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.navbar-container > .logo img {
+    margin-top: -22px;
+    margin-left: 60px;
+    width: 260px
+}

@@ -17,10 +17,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    padding-left: 280px;
+    padding-left: 370px;
     padding-bottom: 150px;
-
     color: white;
     letter-spacing: 0.6px;
 }
@@ -41,15 +39,15 @@
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
 }
 
-.main-section-container > .main-section-grid > .left-column > #bottom-paragraph {
-    margin-bottom: 30px;
+.main-section-container > .main-section-grid > .left-column > .bottom-paragraph {
+    margin-bottom: 18px;
 }
 
 .main-section-container > .main-section-grid > .right-column {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    padding-right: 150px;
+    padding-right: 250px;
 }
 .main-section-container > .main-section-grid > .right-column img{
    width: 350px;

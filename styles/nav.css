@@ -6,12 +6,26 @@
 
 .navbar-container > .navlink-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-right: 100px;
     margin-left: 100px;
+    color: white;
+}
+.navbar-container > .navlink-container > .navlink {
+    width: 160px;
+}
 
+.navbar-container > .navlink-container a {
+    text-decoration: none;
     color: white;
     font-family: 'Ubuntu Condensed', sans-serif;
+    transition: 1s;
+    
+}
+
+.navbar-container > .navlink-container a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
 }
 
 .navbar-container > .logo img {

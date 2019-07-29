@@ -1,0 +1,21 @@
+.hiw-container {
+    background-image: url(../images/backgrounds/backgroundhiw.png);
+    padding: 0px;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hiw-container > .hiw-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hiw-container > .hiw-wrapper > .left-column {
+
+}
+
+.hiw-container > .hiw-wrapper > .right-column {
+    
+}

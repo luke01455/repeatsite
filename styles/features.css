@@ -44,9 +44,12 @@
 }
 
 .features-container > .features-wrapper h1, p {
+    color: white;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
 }
 .features-container > .features-wrapper p {
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
     color: #D4CECE;
 }

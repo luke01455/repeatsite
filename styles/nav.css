@@ -6,12 +6,13 @@
 
 .navbar-container > .navlink-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-right: 100px;
     margin-left: 100px;
     color: white;
 }
 .navbar-container > .navlink-container > .navlink {
+    text-align: center;
     width: 160px;
 }
 

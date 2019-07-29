@@ -1,7 +1,7 @@
 .hiw-container {
     background-image: url(../images/backgrounds/backgroundhiw.png);
     padding: 0px;
-    height: 780px;
+    height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,10 +12,19 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.hiw-container > .hiw-wrapper > .left-column {
-
+.hiw-container > .hiw-wrapper > .left-column2 > .left-text {
+    padding-left: 70px;
+    color: black;
 }
 
-.hiw-container > .hiw-wrapper > .right-column {
-    
+.hiw-container > .hiw-wrapper > .left-column2 img{
+    width: 700px;
+    padding-left: 155px;
+    padding-top: 75px;
+}
+
+.hiw-container > .hiw-wrapper > .right-column2 > .right-text{
+    text-align: center;
+    padding-top: 50px;
+    width: 750px;
 }

@@ -1,0 +1,52 @@
+.features-container {
+    background-image: url(../images/backgrounds/backgroundfeatures.png);
+    padding: 0px;
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.features-container > .features-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.features-container > .features-wrapper > .middle-image img{
+    width: 755px;
+    position: relative;
+    top: 0;
+    left: 50;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.features-container > .features-wrapper > .left-text{  
+    position: relative;
+    top: -150;
+    left: 290;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.features-container > .features-wrapper > .right-text{
+    position: relative;
+    top: 150;
+    left: -150;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.features-container > .features-wrapper h1, p {
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.features-container > .features-wrapper p {
+    color: #D4CECE;
+}

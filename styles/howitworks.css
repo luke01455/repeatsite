@@ -1,7 +1,7 @@
 .hiw-container {
     background-image: url(../images/backgrounds/backgroundhiw.png);
     padding: 0px;
-    height: 820px;
+    height: 780px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,18 +14,19 @@
 
 .hiw-container > .hiw-wrapper > .left-column2 > .left-text {
     position: relative;
-    top: -480;
+    top: -300;
     left: 220;
     right: 0;
     bottom: 0;
     color: black;
+    letter-spacing: 1px;
 }
 
 .hiw-container > .hiw-wrapper > .left-column2 > .left-background {
     margin-top: 90px;
     margin-left: 170px;
     width: 600px;
-    padding-bottom: 500px;
+    padding-bottom: 330px;
     background-color: #949494;
     opacity: .4;
 }
@@ -37,7 +38,22 @@
 }
 
 .hiw-container > .hiw-wrapper > .right-column2 > .right-text{
-    text-align: center;
-    padding-top: 50px;
+    position: relative;
+    top: -349;
+    left: 120;
+    right: 0;
+    bottom: 0;
+    color: black;
     width: 750px;
+    letter-spacing: 1px;
+}
+
+.hiw-container > .hiw-wrapper > .right-column2 > .right-background {
+    margin-top: 90px;
+    margin-left: 50px;
+    width: 750px;
+    padding-bottom: 320px;
+    padding-top: 50px;
+    background-color: #949494;
+    opacity: .4;
 }

@@ -1,0 +1,23 @@
+.about-container {
+    background-image: url(../images/backgrounds/backgroundabout.png);
+    padding: 0px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-container > .about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-container > .about-wrapper > .left-column-about > .left-text-about {
+    padding-top: 100px;
+    padding-left: 100px;
+color: white;
+}
+
+
+
+

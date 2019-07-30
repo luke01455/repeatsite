@@ -43,7 +43,26 @@
     z-index: 10;
 }
 
-.features-container > .features-wrapper h1, p {
+.features-container > .features-wrapper > .left-text > .h1text {
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+.features-container > .features-wrapper > .left-text > .ptext {
+ padding-left: 45px;
+}
+
+.features-container > .features-wrapper > .right-text > .ptext {
+    padding-left: 45px;
+}
+
+.features-container > .features-wrapper > .right-text > .h1text {
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.features-container > .features-wrapper > .ptext {
     color: white;
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
@@ -52,4 +71,8 @@
     letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
     color: #D4CECE;
+}
+
+.features-container > .features-wrapper i {
+    color: rgb(166, 180, 241);
 }

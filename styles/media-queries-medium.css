@@ -1,0 +1,126 @@
+@media (min-width: 616px) 
+and (max-width: 1500px)  {
+        /* HomePage mobile friendly */
+        .landing-container > .navbar-container {
+            padding-left: 67px;
+            padding-top: 33px;
+        }
+    
+    
+        .navbar-container > .navlink-container > .navlink {
+           padding-bottom: 15px;
+           font-size: 1.1em;
+        }
+    
+        .landing-container {
+            background-image: url(../images/backgrounds/background1.png);
+            padding: 0px;
+           
+        }
+
+    
+        .main-section-container > .main-section-grid > .left-column{
+            padding-left: 100px;
+            padding-bottom: 40px;
+            letter-spacing: 0.6px;
+        }
+    
+        .main-section-container > .main-section-grid > .right-column img{
+            width: 350px;
+            padding-left: 60px;
+         }
+    
+         .main-section-container > .main-section-grid > .left-column a{
+            margin-left: 153px;
+        }
+    
+         /* Features Page mobile friendly */
+    
+         .features-container > .features-wrapper {
+           flex-direction: column;
+        
+        }
+         .features-container > .features-wrapper > .middle-image img{
+            width: 650px;
+            position: relative;
+            top: -100;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1;
+        }
+        .features-container > .features-wrapper > .left-text{  
+            position: relative;
+            top: 22;
+            left: -200;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+            padding: 15px;
+        }
+    
+         .features-container > .features-wrapper > .right-text{
+            position: relative;
+            top: -210;
+            left: 225;
+            right: 0;
+            bottom: 0;
+            z-index: 10;
+            padding: 15px;
+            width: 750px;
+        }
+    
+        /* How It works mobile friendly */
+    
+        .hiw-container > .hiw-wrapper {
+            grid-template-columns: 1fr;
+        }
+    
+        .hiw-container {
+            height: 950px;
+        }
+    
+        .hiw-container > .hiw-wrapper > .left-column2 > .left-text {
+            top: -250;
+            left: 525;
+            right: 0;
+            bottom: 0;
+            width: 400px;
+        }
+    
+        .hiw-container > .hiw-wrapper > .left-column2 > .left-background {
+            margin-top: 15px;
+            margin-left: 500px;
+            width: 450px;
+            padding-bottom: 280px;
+        }
+    
+        
+    .hiw-container > .hiw-wrapper > .right-column2 > .right-text{
+        position: relative;
+        top: -625;
+        left: 425;
+        right: 0;
+        bottom: 0;
+        color: black;
+        width: 575px;
+        letter-spacing: 1px;
+    }
+    
+    .hiw-container > .hiw-wrapper > .right-column2 > .right-background {
+        position: relative;
+        top: -120;
+        left: 371;
+        margin-top: 15px;
+        margin-left: 00px;
+        width: 700px;
+        padding-bottom: 500px;
+        padding-top: 50px;
+    }
+    
+    
+    .footer > .links-wrapper > .nav-link {
+
+        font-size: 1.1em;
+      }
+}

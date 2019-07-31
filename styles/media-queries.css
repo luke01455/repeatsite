@@ -1,6 +1,8 @@
 @media (max-width: 615px) {
+
+    /* HomePage mobile friendly */
     .landing-container > .navbar-container {
-        padding-left: 55px;
+        padding-left: 67px;
         padding-top: 33px;
         display:grid;
         grid-template-columns: 1fr;
@@ -32,4 +34,45 @@
         width: 350px;
         padding-left: 60px;
      }
+
+     .main-section-container > .main-section-grid > .left-column a{
+        margin-left: 153px;
+    }
+
+     /* Features Page mobile friendly */
+
+     .features-container > .features-wrapper {
+       flex-direction: column;
+    
+    }
+     .features-container > .features-wrapper > .middle-image img{
+        width: 500px;
+        position: relative;
+        top: -60;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .features-container > .features-wrapper > .left-text{  
+        position: relative;
+        top: 60;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        padding: 15px;
+    }
+
+     .features-container > .features-wrapper > .right-text{
+        position: relative;
+        top: -150;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+        padding: 15px;
+    }
+
+    /* How It works mobile friendly */
 }

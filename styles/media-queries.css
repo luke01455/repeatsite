@@ -2,7 +2,7 @@
 
     /* HomePage mobile friendly */
     .landing-container > .navbar-container {
-        padding-left: 67px;
+        padding-left: 15px;
         padding-top: 33px;
         display:grid;
         grid-template-columns: 1fr;
@@ -21,7 +21,7 @@
     .landing-container {
         background-image: url(../images/backgrounds/background1.png);
         padding: 0px;
-        height: 1100px;
+        height: 1033px;
        
     }
     .main-section-container > .main-section-grid {
@@ -30,18 +30,20 @@
     }
 
     .main-section-container > .main-section-grid > .left-column{
-        padding-left: 20px;
+        padding-left: 15px;
         padding-bottom: 40px;
         letter-spacing: 0px;
+        width: 85%;
     }
 
     .main-section-container > .main-section-grid > .right-column img{
-        width: 350px;
+        width: 100%;
         padding-left: 60px;
      }
 
      .main-section-container > .main-section-grid > .left-column a{
-        margin-left: 153px;
+        margin-left: 100px;
+        width: 90%;
     }
 
      /* Features Page mobile friendly */
@@ -51,7 +53,7 @@
     
     }
      .features-container > .features-wrapper > .middle-image img{
-        width: 500px;
+        width: 100%;
         position: relative;
         top: -60;
         left: 0;
@@ -67,6 +69,7 @@
         bottom: 0;
         z-index: 10;
         padding: 15px;
+        width: 90%;
     }
 
      .features-container > .features-wrapper > .right-text{
@@ -77,6 +80,7 @@
         bottom: 0;
         z-index: 10;
         padding: 15px;
+        width: 90%;
     }
 
     /* How It works mobile friendly */
@@ -91,16 +95,16 @@
 
     .hiw-container > .hiw-wrapper > .left-column2 > .left-text {
         top: -250;
-        left: 60;
+        left: 40;
         right: 0;
         bottom: 0;
-        width: 400px;
+        width: 90%;
     }
 
     .hiw-container > .hiw-wrapper > .left-column2 > .left-background {
         margin-top: 15px;
         margin-left: 15px;
-        width: 450px;
+        width: 95%;
         padding-bottom: 280px;
     }
 
@@ -108,11 +112,11 @@
 .hiw-container > .hiw-wrapper > .right-column2 > .right-text{
     position: relative;
     top: -665;
-    left: 60;
+    left: 40;
     right: 0;
     bottom: 0;
     color: black;
-    width: 400px;
+    width: 85%;
     letter-spacing: 1px;
 }
 
@@ -122,7 +126,7 @@
     left: 15;
     margin-top: 15px;
     margin-left: 00px;
-    width: 450px;
+    width: 95%;
     padding-bottom: 500px;
     padding-top: 50px;
 }
